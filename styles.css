@@ -55,11 +55,13 @@ body {
 
 .image-container {
     display: flex;
+	flex-direction:column;
     justify-content: space-between;
     margin-top: 20px;
 }
 
 .image-container img {
-    width: 30%;
+    width: 100px;
+	 
     border-radius: 5px;
 }
